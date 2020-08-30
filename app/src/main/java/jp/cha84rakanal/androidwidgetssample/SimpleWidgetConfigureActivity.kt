@@ -15,7 +15,7 @@ class SimpleWidgetConfigureActivity : Activity() {
     private var appWidgetId = AppWidgetManager.INVALID_APPWIDGET_ID
     private lateinit var appWidgetText: EditText
     private var onClickListener = View.OnClickListener {
-        val context = this@NewAppWidgetConfigureActivity
+        val context = this@SimpleWidgetConfigureActivity
 
         // When the button is clicked, store the string locally
         val widgetText = appWidgetText.text.toString()
