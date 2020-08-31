@@ -12,6 +12,7 @@
         <receiver android:name=".SimpleButtonWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="CLICK_TEST" />
             </intent-filter>
 
             <meta-data
